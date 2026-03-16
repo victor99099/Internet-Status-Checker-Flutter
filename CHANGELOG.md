@@ -8,3 +8,7 @@
 ## 0.0.2
 
 - Improved README with better documentation and screenshots
+
+## 0.0.3
+
+- Fixed incorrect homepage and repository links in `pubspec.yaml`
