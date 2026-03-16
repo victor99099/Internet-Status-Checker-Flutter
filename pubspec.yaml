@@ -1,0 +1,26 @@
+name: internet_status_checker
+description: Flutter plugin to detect actual validated internet access on Android, not just network presence.
+version: 0.0.2
+homepage: https://github.com/yourusername/internet_status_checker
+repository: https://github.com/yourusername/internet_status_checker
+issue_tracker: https://github.com/yourusername/internet_status_checker/issues
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.wahab.internet_status_checker
+        pluginClass: InternetStatusCheckerPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
